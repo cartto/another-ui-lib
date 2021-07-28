@@ -221,7 +221,7 @@ function Kavo.CreateLib(kavName, themeList)
     blurFrame.Position = UDim2.new(-0.0222222228, 0, -0.0371747203, 0)
     blurFrame.Size = UDim2.new(0, 376, 0, 289)
     blurFrame.ZIndex = 999
-
+syn.protect_gui(ScreenGui)
     ScreenGui.Parent = game.CoreGui
     ScreenGui.Name = LibName
     ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
